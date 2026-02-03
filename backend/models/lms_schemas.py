@@ -501,7 +501,7 @@ class SchoolAnalytics(BaseModel):
 # ============== BULK USER CREATION MODELS ==============
 
 class BulkUserCreate(BaseModel):
-    """Bulk user creation with auto-generated passwords"""
+    """Bulk user creation with secure passwords"""
     name: str
     email: str
     mobile_number: Optional[str] = None
