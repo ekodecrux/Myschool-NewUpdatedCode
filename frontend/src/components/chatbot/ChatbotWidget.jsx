@@ -150,7 +150,7 @@ const ChatbotWidget = () => {
           iframeEl.style.display = 'none';
           if (toggleBtnEl) {
             toggleBtnEl.innerHTML = '💬';
-            toggleBtnEl.title = 'Open MySchool AI Assistant';
+            toggleBtnEl.title = 'Open MySchool Support';
           }
         }
       },
