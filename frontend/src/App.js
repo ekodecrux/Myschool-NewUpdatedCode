@@ -43,7 +43,7 @@ function App() {
               <Routes />
             </ErrorBoundary>
             <CustomSnackbar />
-            {/* MySchool AI Chatbot Widget */}
+            {/* MySchool Support Widget */}
             <ChatbotWidget />
           </ThemeProvider>
         </PersistGate>
