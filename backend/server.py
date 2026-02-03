@@ -335,8 +335,8 @@ async def send_welcome_email(to_email: str, name: str, password: str, role: str,
                 <p>If you have any questions, please contact your administrator.</p>
                 
                 <div class="footer">
-                    <p>This is an automated message from MySchool. Please do not reply to this email.</p>
-                    <p>© 2024 MySchool - Solutions Beyond School</p>
+                    <p>This email was sent from MySchool. Please do not reply to this email.</p>
+                    <p>© 2026 MySchool - Solutions Beyond School</p>
                 </div>
             </div>
         </div>
