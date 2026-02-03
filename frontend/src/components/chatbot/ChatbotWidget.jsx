@@ -96,7 +96,7 @@ const ChatbotWidget = () => {
       const isVisible = iframe.style.display === 'block';
       iframe.style.display = isVisible ? 'none' : 'block';
       toggleBtn.innerHTML = isVisible ? '💬' : '✕';
-      toggleBtn.title = isVisible ? 'Open MySchool AI Assistant' : 'Close MySchool AI Assistant';
+      toggleBtn.title = isVisible ? 'Open MySchool Support' : 'Close MySchool Support';
     };
     toggleBtn.addEventListener('click', handleToggleClick);
 
