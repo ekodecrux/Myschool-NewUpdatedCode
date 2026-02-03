@@ -53,7 +53,7 @@ const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 
 const PLAN_CATEGORIES = [
   { value: 'SCHOOL_ERP', label: 'School ERP' },
-  { value: 'AI_TUTOR', label: 'AI Tutor' },
+  { value: 'SMART_TUTOR', label: 'Smart Tutor' },
   { value: 'COMPETITIVE_EXAMS', label: 'Competitive Exams' },
   { value: 'BUNDLE', label: 'Bundle Package' }
 ];
@@ -66,7 +66,7 @@ const PLAN_DURATIONS = [
 ];
 
 const UTILITIES = [
-  { key: 'ai_tutor', label: 'AI Tutor' },
+  { key: 'smart_tutor', label: 'Smart Tutor' },
   { key: 'lesson_planning', label: 'Lesson Planning' },
   { key: 'assessment_generator', label: 'Assessment Generator' },
   { key: 'image_generator', label: 'Image Generator' },
