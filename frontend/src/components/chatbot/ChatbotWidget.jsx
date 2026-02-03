@@ -1,14 +1,10 @@
 import React, { useEffect } from 'react';
 
 /**
- * MySchool AI Assistant - Chatbot Widget Component
+ * MySchool Support Assistant Widget
  * 
- * This component integrates the MySchool chatbot widget into the React application.
- * The chatbot provides:
- * - Smart Search with autocomplete
- * - Multilingual support (English, Telugu, Hindi, Gujarati)
- * - Voice Input (Speech-to-text)
- * - Responsive design for mobile and desktop
+ * Provides search assistance and multilingual support
+ * for the MySchool platform users.
  */
 const ChatbotWidget = () => {
   useEffect(() => {
