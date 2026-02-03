@@ -1460,7 +1460,7 @@ async def bulk_create_users(
     current_user: dict = Depends(get_current_user),
     db = Depends(get_database)
 ):
-    """Bulk create users with auto-generated passwords (Admin only)"""
+    """Bulk create users with secure passwords (Admin only)"""
     check_permission(current_user, [UserRole.SUPER_ADMIN, UserRole.SCHOOL_ADMIN])
     
     school_code = current_user["school_code"]
