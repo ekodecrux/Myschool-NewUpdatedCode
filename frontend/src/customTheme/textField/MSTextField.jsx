@@ -23,8 +23,8 @@ const maxLengths = {
     section: 10,        // Section: 10 chars, alphabets only
     fatherName: 40,     // Parent Name: 40 chars, alphabets only
     parentName: 40,     // Parent Name: 40 chars, alphabets only
-    teacherCode: 16,    // Teacher Code: auto-generate
-    studentCode: 16,    // Student Code: auto-generate
+    teacherCode: 16,    // Teacher Code: system generated
+    studentCode: 16,    // Student Code: system generated
 };
 
 // Fields that only allow alphabets and spaces (A-Z, a-z)
