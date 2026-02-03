@@ -297,7 +297,7 @@ async def send_email(to_email: str, subject: str, html_content: str):
         return False
 
 async def send_welcome_email(to_email: str, name: str, password: str, role: str, school_name: str = "MySchool"):
-    """Send welcome email with auto-generated password"""
+    """Send welcome email with login credentials"""
     subject = f"Welcome to {school_name} - Your Account Details"
     html_content = f"""
     <!DOCTYPE html>
