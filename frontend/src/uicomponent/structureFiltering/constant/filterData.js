@@ -1,5 +1,5 @@
-// Auto-generated filter data matching database structure
-// This file contains filter options for Academic and One Click Resource Center sections
+// Filter data for Academic and Resource Center sections
+// Contains filter options for various educational categories
 
 // Academic class filters - subjects for each class
 export const academicSubjects = [
