@@ -54,7 +54,7 @@ const ChatbotWidget = () => {
       justify-content: center;
     `;
     toggleBtn.innerHTML = '💬';
-    toggleBtn.title = 'Open MySchool AI Assistant';
+    toggleBtn.title = 'Open MySchool Support';
 
     // Create iframe
     const iframe = document.createElement('iframe');
@@ -107,7 +107,7 @@ const ChatbotWidget = () => {
           !event.target.closest(`#myschool-chatbot-toggle`)) {
         iframe.style.display = 'none';
         toggleBtn.innerHTML = '💬';
-        toggleBtn.title = 'Open MySchool AI Assistant';
+        toggleBtn.title = 'Open MySchool Support';
       }
     };
     document.addEventListener('click', handleClickOutside);
