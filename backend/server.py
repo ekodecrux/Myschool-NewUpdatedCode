@@ -968,7 +968,7 @@ async def register(
     
     await db.users.insert_one(user_data)
     
-    # Send welcome email if password was auto-generated
+    # Send welcome email with credentials
     if send_email_flag:
         school_name = "MySchool"
         if request.school_code:
