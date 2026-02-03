@@ -1,0 +1,215 @@
+.signUpLeftContainer,
+.signUpRightContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.signUpInputContainer {
+    display: flex;
+    column-gap: 20px;
+    row-gap: 24px;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+    /* height:80vh;
+    overflow: scroll; */
+}
+
+.roleSelector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    min-height: 56px;
+    background-color: #DDD9C3;
+    overflow-x: auto;
+}
+
+.registerForm {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    padding: 5% 4% 5%
+}
+
+.registerParentCard {
+    max-height: 80vh;
+    overflow: hidden !important;
+}
+
+.signupNav {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 18px;
+    border-bottom: 1px solid #DDDDDD;
+    position: relative;
+    background-color: white;
+    z-index: 2;
+}
+
+.SignUpHeading {
+    padding-top: 25px;
+    text-align: center;
+    user-select: none;
+}
+
+
+@media screen and (min-width:320px) and (max-width: 520px) {
+    .signUpInputContainer {
+        flex-direction: column;
+    }
+
+    .registerParentCard {
+        max-height: 90vh;
+        /* overflow: scroll !important; */
+        flex-direction: column;
+        min-width: 100vw;
+        align-items: center;
+    }
+
+    .registerForm {
+        padding: 25px 30px 54px;
+        /* max-height: 50vh; */
+        overflow-y: scroll;
+    }
+
+    .roleSelector {
+        padding: 0px 0px;
+        max-width: 100vw;
+    }
+
+    .registerContBtn {
+        padding: 0px 0px;
+    }
+
+    .signupNav {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        padding-top: 18px;
+        border-bottom: 1px solid #DDDDDD;
+        position: fixed;
+        background-color: white;
+        z-index: 2;
+        min-width: 100vw;
+
+    }
+
+    .SignUpHeading>h3 {
+        /* padding-top: 35px; */
+        font-size: 23px;
+        /* padding-top: 10px; */
+        user-select: none;
+    }
+
+    .signUpCloseModal {
+        position: absolute;
+        top: 10%;
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        min-width: 50px !important;
+        min-height: 50px !important;
+        background-color: white !important;
+        border-radius: 30px !important;
+
+    }
+
+    .SignUpHeading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 100vw;
+        padding-top: 60px;
+    }
+
+    .registerForm::-webkit-scrollbar {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:320px) and (max-width: 520px) {
+    .registerForm {
+        /* padding: 8%; */
+    }
+}
+
+/* Fix for Cancel/Sign Up button styling */
+.registerContBtn {
+    display: flex;
+    gap: 16px;
+    margin-top: 10px;
+}
+
+.registerContBtn button {
+    flex: 1;
+    min-width: 120px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.registerContBtn button:first-child {
+    margin-right: 8px;
+    border: 2px solid #1976d2;
+    background-color: transparent;
+    color: #1976d2;
+}
+
+.registerContBtn button:first-child:hover {
+    background-color: rgba(25, 118, 210, 0.04);
+    border-color: #1565c0;
+}
+
+.registerContBtn button:last-child {
+    margin-left: 8px;
+    background-color: #1976d2;
+    color: white;
+}
+
+.registerContBtn button:last-child:hover {
+    background-color: #1565c0;
+}
+
+/* Fix focus states to prevent both buttons highlighting */
+.registerContBtn button:focus {
+    outline: none;
+}
+
+.registerContBtn button:first-child:focus {
+    box-shadow: 0 0 0 2px rgba(25, 118, 210, 0.3);
+}
+
+.registerContBtn button:last-child:focus {
+    box-shadow: 0 0 0 2px rgba(25, 118, 210, 0.3);
+}
+
+/* @media screen and  (max-width:425px) {
+    .signUpCloseModal{
+      top:66px !important;
+    }
+  
+  }
+  @media screen and  (max-width:320px){
+    .signUpCloseModal{
+     top:110px !important;
+    }
+  
+  }
+  @media screen and (max-width: 375px){
+    .signUpCloseModal{
+      top:50px !important;
+    }
+  
+  } */

@@ -1,0 +1,18 @@
+.academicsContainer {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.academicsWrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.checkboxContainer{
+    position: fixed;
+    right: 0;
+    bottom: 14vh;
+    z-index: 100;
+    padding: 3px 2px;
+}
