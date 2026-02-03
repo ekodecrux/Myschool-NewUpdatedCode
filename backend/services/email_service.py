@@ -124,7 +124,7 @@ def get_password_reset_email_template(name: str, reset_code: str) -> str:
                 <p>If you didn't request this, please ignore this email or contact support if you have concerns.</p>
             </div>
             <div class="footer">
-                <p>© 2024 MySchool. All rights reserved.</p>
+                <p>© 2026 MySchool. All rights reserved.</p>
             </div>
         </div>
     </body>
