@@ -218,7 +218,7 @@ const AnalyticsTab = ({ accessToken, userRole }) => {
 
             <Box sx={{ mb: 2 }}>
               <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 1 }}>
-                <Typography variant="body2">Images Generated This Month</Typography>
+                <Typography variant="body2">Images Created This Month</Typography>
                 <Typography variant="body2" fontWeight="bold">
                   {data.imagesThisMonth || 0}
                 </Typography>
