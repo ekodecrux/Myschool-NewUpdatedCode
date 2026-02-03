@@ -377,7 +377,7 @@ async def send_password_reset_email(to_email: str, name: str, reset_code: str):
                 <p>If you didn't request this password reset, please ignore this email or contact support if you have concerns.</p>
                 
                 <div class="footer">
-                    <p>© 2024 MySchool - Solutions Beyond School</p>
+                    <p>© 2026 MySchool - Solutions Beyond School</p>
                 </div>
             </div>
         </div>
