@@ -139,7 +139,7 @@ const ChatbotWidget = () => {
           iframeEl.style.display = 'block';
           if (toggleBtnEl) {
             toggleBtnEl.innerHTML = '✕';
-            toggleBtnEl.title = 'Close MySchool AI Assistant';
+            toggleBtnEl.title = 'Close MySchool Support';
           }
         }
       },
