@@ -85,7 +85,7 @@ def get_welcome_email_template(name: str, email: str, password: str, role: str, 
                 </center>
             </div>
             <div class="footer">
-                <p>© 2024 MySchool. All rights reserved.</p>
+                <p>© 2026 MySchool. All rights reserved.</p>
                 <p>If you didn't request this account, please ignore this email.</p>
             </div>
         </div>
